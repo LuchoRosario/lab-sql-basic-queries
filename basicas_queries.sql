@@ -40,6 +40,6 @@ FROM film
 ORDER BY length DESC
 LIMIT 10;
 -- punto 7
-SELECT first_name, last_name as total_actores_llamados_scarlett 
+SELECT *  
 FRom actor
 WHERE first_name= 'SCARLETT'
